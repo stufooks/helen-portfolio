@@ -1,0 +1,37 @@
+section {
+    margin-top: 13vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section a {
+    width: 200px;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 25px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid rgba(56, 56, 56, 0.5); */
+}
+
+p {
+    text-align: center;
+    font-size: .9em;
+}
+
+span {
+    font-style: italic;
+}
