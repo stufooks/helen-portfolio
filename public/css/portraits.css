@@ -11,3 +11,19 @@
     width: 80%;
     height: auto;
 }
+
+.description-container {
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 13vh;
+}
+
+.text-container {
+    width: 40%;
+}
+
+span {
+    font-style: italic;
+}

@@ -69,7 +69,7 @@ thumb1.save(function(err) {
 
   const port1 = new Portrait({
     title: thumb1.title,
-    description: "test test test",
+    description: "Portrait of Jean Smart as a younger Margaret MacLanden.",
     source: portSource + "a-simple-favor.jpg",
     year: 2018,
     thumbnail: thumb1._id
@@ -85,7 +85,7 @@ thumb2.save(function(err) {
 
   const port2 = new Portrait({
     title: thumb2.title,
-    description: "test test test",
+    description: "Description",
     source: portSource + "john-adams-abigail.jpg",
     year: 2018,
     thumbnail: thumb2._id
@@ -101,8 +101,8 @@ thumb3.save(function(err) {
 
   const port3 = new Portrait({
     title: thumb3.title,
-    description: "test tes test",
-    source: portSource + "a-simple-favor.jpg",
+    description: "Description",
+    source: portSource + "battle-of-the-sexes.jpg",
     year: 2018,
     thumbnail: thumb3._id
   });
@@ -117,7 +117,7 @@ thumb4.save(function(err) {
 
   const port4 = new Portrait({
     title: thumb4.title,
-    description: "test test test",
+    description: "Portrait of Martin Sheen as Oral Roberts.",
     source: portSource + "come-sunday.jpg",
     year: 2018,
     thumbnail: thumb4._id
@@ -133,7 +133,7 @@ thumb5.save(function(err) {
 
   const port5 = new Portrait({
     title: thumb5.title,
-    description: "test test test",
+    description: "Description",
     source: portSource + "feud.jpg",
     year: 2018,
     thumbnail: thumb5._id
@@ -149,7 +149,7 @@ thumb6.save(function(err) {
 
   const port6 = new Portrait({
     title: thumb6.title,
-    description: "test test test",
+    description: "Description",
     source: portSource + "ghost-busters.jpg",
     year: 2018,
     thumbnail: thumb6._id
@@ -165,7 +165,7 @@ thumb7.save(function(err) {
 
   const port7 = new Portrait({
     title: thumb7.title,
-    description: "test test test",
+    description: "Description",
     source: portSource + "john-adams-franklin.jpg",
     year: 2018,
     thumbnail: thumb7._id
@@ -181,7 +181,7 @@ thumb8.save(function(err) {
 
   const port8 = new Portrait({
     title: thumb8.title,
-    description: "test test test",
+    description: "Description",
     source: portSource + "john-adams-jefferson.jpg",
     year: 2018,
     thumbnail: thumb8._id
@@ -197,7 +197,7 @@ thumb9.save(function(err) {
 
   const port9 = new Portrait({
     title: thumb9.title,
-    description: "test test test",
+    description: "Description",
     source: portSource + "john-adams.jpg",
     year: 2018,
     thumbnail: thumb9._id
@@ -213,7 +213,7 @@ thumb10.save(function(err) {
 
   const port10 = new Portrait({
     title: thumb10.title,
-    description: "test test test",
+    description: "Description",
     source: portSource + "mercy-street.jpg",
     year: 2018,
     thumbnail: thumb10._id
@@ -229,7 +229,7 @@ thumb11.save(function(err) {
 
   const port11 = new Portrait({
     title: thumb11.title,
-    description: "test test test",
+    description: "Description",
     source: portSource + "montage.jpg",
     year: 2018,
     thumbnail: thumb11._id
@@ -245,7 +245,7 @@ thumb12.save(function(err) {
 
   const port12 = new Portrait({
     title: thumb12.title,
-    description: "test test test",
+    description: "Description",
     source: portSource + "why-him.jpg",
     year: 2018,
     thumbnail: thumb12._id

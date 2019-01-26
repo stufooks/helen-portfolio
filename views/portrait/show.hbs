@@ -1,4 +1,8 @@
 <div class="portrait-gallery">
     <img src="{{ portrait.source }}">
 </div>
- <h1>{{ portrait.description }}</h1>
+<div class="description-container">
+    <div class="text-container">
+        <p>{{ portrait.description }}</br><span>{{portrait.title}}, </span> {{ portrait.year }}</p>
+    </div>
+</div>
