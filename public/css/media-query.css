@@ -1,0 +1,40 @@
+@media only screen and (max-width: 727px) {
+    body {
+        margin: 0 5vw;
+    }
+
+    header {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .name, .title {
+        margin: -3vh;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    a {
+        margin: 0 7px;
+    }
+}
+
+@media only screen and (max-width: 1159px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    a {
+        font-size: 1em;
+    }
+}
