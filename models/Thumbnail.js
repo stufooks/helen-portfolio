@@ -4,6 +4,7 @@ const Schema = mongoose.Schema
 const Thumbnail = new Schema({
 	title: String,
 	source: String,
+	year: Number,
 	createdAt: {
 		type: Date,
 		default: Date.now()

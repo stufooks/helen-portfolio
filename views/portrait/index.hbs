@@ -1,10 +1,8 @@
 <section class="content">
+    {{#each thumbnails}}
     <div class="card">
-        <img src="#" alt="A Simple Favor" />
-        <p><span>A Simple Favor</span>, 2018</p>
+        <img src="{{ source }}" alt="{{ title }}" />
+        <p><span>{{ title }}</span>, {{ year }}</p>
     </div>
-    <div class="card">
-        <img src="#" alt="Come Sunday" />
-        <p><span>Come Sunday</span>, 2018</p>
-    </div>
+    {{/each}}
 </section>
