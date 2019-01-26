@@ -1,4 +1,11 @@
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost/helen')
+
+if(process.env.NODE_ENV === "production") {
+    mongoose.connect(process.env.MLAB_URL)
+} else {
+    mongoose.connect("mongodb://localhost/helen")
+}
+
 mongoose.Promise = Promise
+
 module.exports = mongoose
