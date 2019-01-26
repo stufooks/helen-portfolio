@@ -1,8 +1,10 @@
 <section class="content">
     {{#each thumbnails}}
-    <div class="card">
-        <img src="{{ source }}" alt="{{ title }}" />
-        <p><span>{{ title }}</span>, {{ year }}</p>
-    </div>
+    <a href="/portrait/{{ _id }}">
+        <div class="card">
+            <img src="{{ source }}" alt="{{ title }}" />
+            <p><span>{{ title }}</span>, {{ year }}</p>
+        </div>
+    </a>
     {{/each}}
 </section>
