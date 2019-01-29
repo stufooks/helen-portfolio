@@ -1,14 +1,20 @@
 @media only screen and (max-width: 727px) {
     body {
-        margin: 0 5vw;
+        margin: 0;
     }
 
     header {
+        width: 100%;
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        margin-bottom: 10vh;
+    }
+
+    .content-container {
+        width: 85%;
     }
 
     .dot {
@@ -20,12 +26,8 @@
         text-align: center;
     }
 
-    nav {
-        justify-content: center;
-    }
-
     a {
-        margin: 0 7px;
+        margin: 0;
     }
 }
 

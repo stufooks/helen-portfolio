@@ -43,7 +43,6 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-bottom: vh;
 }
 
 nav a {
