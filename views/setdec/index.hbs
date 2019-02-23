@@ -1,0 +1,8 @@
+<section class="content">
+    {{#each thumbnails}}
+        <div class="card">
+            <a href="/setdec/{{ _id }}"><img src="{{ source }}" alt="{{ title }}" /></a>
+            <a href="/setdec/{{ _id }}"><p><span>{{ title }}</span>, {{ year }}</p></a>
+        </div>
+    {{/each}}
+</section>

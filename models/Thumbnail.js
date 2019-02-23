@@ -8,6 +8,10 @@ const Thumbnail = new Schema({
 	createdAt: {
 		type: Date,
 		default: Date.now()
+	},
+	setDec: {
+		type: Boolean,
+		default: false
 	}
 })
 

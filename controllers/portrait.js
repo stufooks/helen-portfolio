@@ -5,7 +5,7 @@ const Thumbnail = require('../models/Thumbnail')
 
 
 router.get('/', (req, res) => {
-    Thumbnail.find({})
+    Thumbnail.find({ setDec: false })
     .then(thumbnails => {
         res.render('portrait/index', { thumbnails })
     })
