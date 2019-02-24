@@ -5,6 +5,7 @@ const Prop = new Schema({
 	title: String,
 	source: String,
 	description: String,
+	credits: String,
 	year: Number,
 	createdAt: {
 		type: Date,

@@ -12,6 +12,10 @@ const Thumbnail = new Schema({
 	setDec: {
 		type: Boolean,
 		default: false
+	},
+	prop: {
+		type: Boolean,
+		default: false
 	}
 })
 

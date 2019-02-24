@@ -101,7 +101,7 @@ setThumb1.save(err => {
 
   const set1 = new SetDec({
     title: setThumb1.title,
-    credits: " Jefferson Sage, Production Designer",
+    credits: "Jefferson Sage, Production Designer",
     source: setSource + "a-simple-favor-nudes.jpg",
     year: 2018,
     thumbnail: setThumb1._id
