@@ -27,3 +27,8 @@
 span {
     font-style: italic;
 }
+
+.credits {
+    font-size: .8em;
+    margin-top: -7px;
+}

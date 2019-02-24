@@ -10,7 +10,8 @@ const Portrait = new Schema({
 		type: Date,
 		default: Date.now()
 	},
-	thumbnail: String
+	thumbnail: String,
+	credits: String
 })
 
 module.exports = mongoose.model("Portrait", Portrait)

@@ -15,28 +15,28 @@ const setThumb1 = new Thumbnail({
 const setThumb2 = new Thumbnail({
   title: "Alleged",
   source: setThumbSource + "alleged.jpg",
-  year: 2018,
+  year: 2010,
   setDec: true
 })
 
 const setThumb3 = new Thumbnail({
   title: "Alpha House",
   source: setThumbSource + "alpha-house.jpg",
-  year: 2018,
+  year: 2014,
   setDec: true
 })
 
 const setThumb4 = new Thumbnail({
   title: "Feud",
   source: setThumbSource + "feud.jpg",
-  year: 2018,
+  year: 2017,
   setDec: true
 })
 
 const setThumb5 = new Thumbnail({
   title: "Red Oaks",
   source: setThumbSource + "red-oaks.jpg",
-  year: 2018,
+  year: 2014,
   setDec: true
 })
 
@@ -50,26 +50,26 @@ const setThumb6 = new Thumbnail({
 const setThumb7 = new Thumbnail({
   title: "American Hustle",
   source: setThumbSource + "american-hustle.jpg",
-  year: 2018,
+  year: 2013,
   setDec: true
 })
 
 const setThumb8 = new Thumbnail({
   title: "The Extra Man",
   source: setThumbSource + "extra-man.jpg",
-  year: 2018,
+  year: 2010,
   setDec: true
 })
 
 const setThumb9 = new Thumbnail({
-  title: "Step Up",
+  title: "Step Up Highwater",
   source: setThumbSource + "step-up-basquiat.jpg",
   year: 2018,
   setDec: true
 })
 
 const setThumb10 = new Thumbnail({
-  title: "Step Up",
+  title: "Step Up Highwater",
   source: setThumbSource + "step-up.jpg",
   year: 2018,
   setDec: true
@@ -78,21 +78,21 @@ const setThumb10 = new Thumbnail({
 const setThumb11 = new Thumbnail({
   title: "What Men Want",
   source: setThumbSource + "what-men-want-various.jpg",
-  year: 2018,
+  year: 2019,
   setDec: true
 })
 
 const setThumb12 = new Thumbnail({
   title: "What Men Want",
   source: setThumbSource + "what-men-want.jpg",
-  year: 2018,
+  year: 2019,
   setDec: true
 })
 
 const setThumb13 = new Thumbnail({
   title: "Other Works",
   source: setThumbSource + "montage.jpg",
-  year: 2018,
+  year: null,
   setDec: true
 })
 
@@ -101,7 +101,7 @@ setThumb1.save(err => {
 
   const set1 = new SetDec({
     title: setThumb1.title,
-    description: "Description",
+    credits: " Jefferson Sage, Production Designer",
     source: setSource + "a-simple-favor-nudes.jpg",
     year: 2018,
     thumbnail: setThumb1._id
@@ -117,9 +117,9 @@ setThumb2.save(err => {
 
   const set2 = new SetDec({
     title: setThumb2.title,
-    description: "Description",
+    credits: "Marthe Pineau, Production Designer and Elliot Glick, Art Director",
     source: setSource + "alleged.jpg",
-    year: 2018,
+    year: 2010,
     thumbnail: setThumb2._id
   })
 
@@ -133,9 +133,9 @@ setThumb3.save(err => {
 
   const set3 = new SetDec({
     title: setThumb3.title,
-    description: "Description",
+    credits: "Judy Rhee, Production Designer and Heather Loeffler, Set Decorator",
     source: setSource + "alpha-house.jpg",
-    year: 2018,
+    year: 2014,
     thumbnail: setThumb3._id
   })
 
@@ -149,9 +149,9 @@ setThumb4.save(err => {
 
   const set4 = new SetDec({
     title: setThumb4.title,
-    description: "Description",
+    credits: "Judy Becker, Production Designer and Florencia Martin, Set Decorator",
     source: setSource + "feud.jpg",
-    year: 2018,
+    year: 2017,
     thumbnail: setThumb4._id
   })
 
@@ -165,9 +165,9 @@ setThumb5.save(err => {
 
   const set5 = new SetDec({
     title: setThumb5.title,
-    description: "Description",
+    credits: "Chris Spellman, Production Designer and Heather Loeffler, Set Decorator",
     source: setSource + "red-oaks.jpg",
-    year: 2018,
+    year: 2014,
     thumbnail: setThumb5._id
   })
 
@@ -181,7 +181,7 @@ setThumb6.save(err => {
 
   const set6 = new SetDec({
     title: setThumb6.title,
-    description: "Description",
+    credits: "Jefferson Sage, Production Designer",
     source: setSource + "a-simple-favor.jpg",
     year: 2018,
     thumbnail: setThumb6._id
@@ -197,9 +197,9 @@ setThumb7.save(err => {
 
   const set7 = new SetDec({
     title: setThumb7.title,
-    description: "Description",
+    credits: "Judy Becker, Production Designer and Heather Loeffler, Set Decorator",
     source: setSource + "american-hustle.jpg",
-    year: 2018,
+    year: 2013,
     thumbnail: setThumb7._id
   })
 
@@ -213,9 +213,9 @@ setThumb8.save(err => {
 
   const set8 = new SetDec({
     title: setThumb8.title,
-    description: "Description",
+    credits: "Judy Becker, Production Designer and Carrie Stewart, Set Decorator",
     source: setSource + "extra-man.jpg",
-    year: 2018,
+    year: 2010,
     thumbnail: setThumb8._id
   })
 
@@ -229,7 +229,7 @@ setThumb9.save(err => {
 
   const set9 = new SetDec({
     title: setThumb9.title,
-    description: "Description",
+    credits: "Mark Hutman, Production Designer",
     source: setSource + "step-up-basquiat.jpg",
     year: 2018,
     thumbnail: setThumb9._id
@@ -245,8 +245,9 @@ setThumb10.save(err => {
 
   const set10 = new SetDec({
     title: setThumb10.title,
-    description: "Description",
-    source: setSource + "astep-up.jpg",
+    description: "Portrait of Jaqueline Kochka",
+    credits: "Mark Hutman, Production Designer",
+    source: setSource + "step-up.jpg",
     year: 2018,
     thumbnail: setThumb10._id
   })
@@ -261,9 +262,9 @@ setThumb11.save(err => {
 
   const set11 = new SetDec({
     title: setThumb11.title,
-    description: "Description",
+    credits: "Mark Hutman, Production Designer",
     source: setSource + "what-men-want-various.jpg",
-    year: 2018,
+    year: 2019,
     thumbnail: setThumb11._id
   })
 
@@ -277,9 +278,9 @@ setThumb12.save(err => {
 
   const set12 = new SetDec({
     title: setThumb12.title,
-    description: "Description",
+    credits: "Mark Hutman, Production Designer",
     source: setSource + "what-men-want.jpg",
-    year: 2018,
+    year: 2019,
     thumbnail: setThumb12._id
   })
 
@@ -293,9 +294,9 @@ setThumb13.save(err => {
 
   const set13 = new SetDec({
     title: setThumb13.title,
-    description: "Description",
+    description: "Assorted Art Work for Film and TV, 2007-2019",
     source: setSource + "montage.jpg",
-    year: 2018,
+    year: null,
     thumbnail: setThumb13._id
   })
 

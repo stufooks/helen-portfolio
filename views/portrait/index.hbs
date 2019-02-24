@@ -2,7 +2,7 @@
     {{#each thumbnails}}
         <div class="card">
             <a href="/portrait/{{ _id }}"><img src="{{ source }}" alt="{{ title }}" /></a>
-            <a href="/portrait/{{ _id }}"><p><span>{{ title }}</span>, {{ year }}</p></a>
+            <a href="/portrait/{{ _id }}"><p><span>{{ title }}</span>{{#if year}}, {{ year }}{{/if}}</p></a>
         </div>
     {{/each}}
 </section>

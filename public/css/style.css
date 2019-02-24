@@ -53,11 +53,17 @@ nav a {
 }
 
 .hero {
-    margin-top: 15vh;
+    margin-top: 13vh;
     background-size: cover;
     width: 750px;
     height: 450px;
-    border: 5px solid red;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
 }
 
 a:hover {
