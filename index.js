@@ -1,11 +1,11 @@
 const express = require('express')
 const app = express()
 
-const hbs = require("hbs")
+// const hbs = require("hbs")
 app.set("view engine", "hbs")
 app.use(express.static("public"))
 
-const router = express.Router()
+// const router = express.Router()
 
 const controllers = require('./controllers/index')
 app.use('/', controllers)
