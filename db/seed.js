@@ -1,16 +1,7 @@
 //require models
 const Thumbnail = require("../models/Thumbnail");
 const Portrait = require("../models/Portrait");
-const SetDec = require("../models/SetDec");
-const Prop = require("../models/Prop");
 
-// Thumbnail.deleteMany({}).then(() => {
-//   Portrait.deleteMany({}).then(() => {
-//     SetDec.deleteMany({}).then(() => {
-//       Prop.deleteMany({})
-//     })
-//   })
-// })
 //image path constants for portraits
 const thumbSource = "/images/thumbnails/port-thumbs/thumbnail-";
 const portSource = "/images/portraits/portrait-";
@@ -268,62 +259,3 @@ thumb12.save(function(err) {
     if (err) return handleError(err);
   });
 });
-
-//set-dec thumbnails and portraits below ---------------------------------
-
-//image path constants for set decs
-// const setThumbSource = "/images/thumbnails/set-thumbs/set-thumb-";
-// const setSource = "/images/set-dec/set-dec-";
-
-// //create set dec thumbnails and set decs
-// const setThumb1 = new Thumbnail({
-//   title: "A Simple Favor",
-//   source: setThumbSource + "a-simple-favor-nudes.jpg",
-//   year: 2018,
-//   setDec: true
-// })
-
-// setThumb1.save(err => {
-//   if(err) return handleError(err)
-
-//   const set1 = new SetDec({
-//     title: setThumb1.title,
-//     description: "Description",
-//     source: setSource + "a-simple-favor-nudes.jpg",
-//     year: 2018,
-//     thumbnail: setThumb1._id
-//   })
-
-//   set1.save(function(err) {
-//     if (err) return handleError(err);
-//   });
-// })
-
-//props thumbnails and portraits below ---------------------------------------
-
-//image path constants for set decs
-// const propThumbSource = "/images/thumbnails/prop-thumbs/prop-thumb-";
-// const propSource = "/images/props/prop-";
-
-// //create prop thumbnails and props
-// const propThumb1 = new Thumbnail({
-//   title: "A Simple Favor",
-//   source: propThumbSource + "a-simple-favor-nudes.jpg",
-//   year: 2018
-// })
-
-// propThumb1.save(err => {
-//   if(err) return handleError(err)
-
-//   const prop1 = new Prop({
-//     title: propThumb1.title,
-//     description: "Description",
-//     source: propSource + "a-simple-favor-nudes.jpg",
-//     year: 2018,
-//     thumbnail: propThumb1._id
-//   })
-
-//   prop1.save(function(err) {
-//     if (err) return handleError(err);
-//   });
-// })
