@@ -1,11 +1,12 @@
 const express = require('express')
 const app = express()
+const favicon = require('serve-favicon');
 
-// const hbs = require("hbs")
 app.set("view engine", "hbs")
 app.use(express.static("public"))
 
-// const router = express.Router()
+app.use(favicon(__dirname + '/public/images/favicon.jpg'));
+
 
 const controllers = require('./controllers/index')
 app.use('/', controllers)
