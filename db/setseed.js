@@ -101,7 +101,7 @@ setThumb1.save(err => {
 
   const set1 = new SetDec({
     title: setThumb1.title,
-    credits: "Jefferson Sage, Production Designer",
+    creditsOne: "Jefferson Sage, Production Designer",
     source: setSource + "a-simple-favor-nudes.jpg",
     year: 2018,
     thumbnail: setThumb1._id
@@ -117,7 +117,8 @@ setThumb2.save(err => {
 
   const set2 = new SetDec({
     title: setThumb2.title,
-    credits: "Marthe Pineau, Production Designer and Elliot Glick, Art Director",
+    creditsOne: "Marthe Pineau, Production Designer",
+    creditsTwo: "Elliot Glick, Art Director",
     source: setSource + "alleged.jpg",
     year: 2010,
     thumbnail: setThumb2._id
@@ -133,7 +134,8 @@ setThumb3.save(err => {
 
   const set3 = new SetDec({
     title: setThumb3.title,
-    credits: "Judy Rhee, Production Designer and Heather Loeffler, Set Decorator",
+    creditsOne: "Judy Rhee, Production Designer",
+    creditsTwo: "Heather Loeffler, Set Decorator",
     source: setSource + "alpha-house.jpg",
     year: 2014,
     thumbnail: setThumb3._id
@@ -149,7 +151,8 @@ setThumb4.save(err => {
 
   const set4 = new SetDec({
     title: setThumb4.title,
-    credits: "Judy Becker, Production Designer and Florencia Martin, Set Decorator",
+    creditsOne: "Judy Becker, Production Designer",
+    creditsTwo: "Florencia Martin, Set Decorator",
     source: setSource + "feud.jpg",
     year: 2017,
     thumbnail: setThumb4._id
@@ -165,7 +168,8 @@ setThumb5.save(err => {
 
   const set5 = new SetDec({
     title: setThumb5.title,
-    credits: "Chris Spellman, Production Designer and Heather Loeffler, Set Decorator",
+    creditsOne: "Chris Spellman, Production Designer",
+    creditsTwo: "Heather Loeffler, Set Decorator",
     source: setSource + "red-oaks.jpg",
     year: 2014,
     thumbnail: setThumb5._id
@@ -181,7 +185,7 @@ setThumb6.save(err => {
 
   const set6 = new SetDec({
     title: setThumb6.title,
-    credits: "Jefferson Sage, Production Designer",
+    creditsOne: "Jefferson Sage, Production Designer",
     source: setSource + "a-simple-favor.jpg",
     year: 2018,
     thumbnail: setThumb6._id
@@ -197,7 +201,8 @@ setThumb7.save(err => {
 
   const set7 = new SetDec({
     title: setThumb7.title,
-    credits: "Judy Becker, Production Designer and Heather Loeffler, Set Decorator",
+    creditsOne: "Judy Becker, Production Designer",
+    creditsTwo: "Heather Loeffler, Set Decorator",
     source: setSource + "american-hustle.jpg",
     year: 2013,
     thumbnail: setThumb7._id
@@ -213,7 +218,8 @@ setThumb8.save(err => {
 
   const set8 = new SetDec({
     title: setThumb8.title,
-    credits: "Judy Becker, Production Designer and Carrie Stewart, Set Decorator",
+    creditsOne: "Judy Becker, Production Designer",
+    creditsTwo: "Carrie Stewart, Set Decorator",
     source: setSource + "extra-man.jpg",
     year: 2010,
     thumbnail: setThumb8._id
@@ -229,7 +235,7 @@ setThumb9.save(err => {
 
   const set9 = new SetDec({
     title: setThumb9.title,
-    credits: "Mark Hutman, Production Designer",
+    creditsOne: "Mark Hutman, Production Designer",
     source: setSource + "step-up-basquiat.jpg",
     year: 2018,
     thumbnail: setThumb9._id
@@ -246,7 +252,7 @@ setThumb10.save(err => {
   const set10 = new SetDec({
     title: setThumb10.title,
     description: "Portrait of Jaqueline Kochka",
-    credits: "Mark Hutman, Production Designer",
+    creditsOne: "Mark Hutman, Production Designer",
     source: setSource + "step-up.jpg",
     year: 2018,
     thumbnail: setThumb10._id
@@ -262,7 +268,7 @@ setThumb11.save(err => {
 
   const set11 = new SetDec({
     title: setThumb11.title,
-    credits: "Mark Hutman, Production Designer",
+    creditsOne: "Mark Hutman, Production Designer",
     source: setSource + "what-men-want-various.jpg",
     year: 2019,
     thumbnail: setThumb11._id
@@ -278,7 +284,7 @@ setThumb12.save(err => {
 
   const set12 = new SetDec({
     title: setThumb12.title,
-    credits: "Mark Hutman, Production Designer",
+    creditsOne: "Mark Hutman, Production Designer",
     source: setSource + "what-men-want.jpg",
     year: 2019,
     thumbnail: setThumb12._id

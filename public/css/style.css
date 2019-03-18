@@ -69,3 +69,17 @@ nav a {
 a:hover {
     text-decoration: underline;
 }
+
+.contact {
+    margin-top: 12vh;
+    width: 90%;
+}
+
+.contact * {
+    font-weight: 100;
+}
+
+.contact span {
+    font-weight: bold;
+    font-size: 1.1em;
+}

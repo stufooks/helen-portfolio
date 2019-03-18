@@ -5,7 +5,8 @@ const SetDec = new Schema({
 	title: String,
 	source: String,
 	description: String,
-	credits: String,
+	creditsOne: String,
+	creditsTwo: String,
 	year: Number,
 	createdAt: {
 		type: Date,
