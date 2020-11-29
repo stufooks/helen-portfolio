@@ -6,7 +6,7 @@ const Thumbnail = require('../models/Thumbnail')
 
 router.get('/', (req, res) => {
     Thumbnail.find({ setDec: true })
-    .sort([['createdAt', -1]])
+    .sort({ year: -1, title: 1 })
     .then(thumbnails => {
         res.render('setdec/index', { thumbnails })
     })
