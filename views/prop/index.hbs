@@ -1,7 +1,7 @@
 <section class="content">
     {{#each thumbnails}}
         <div class="card">
-            <a href="/prop/{{ _id }}"><img src="{{ source }}" alt="{{ title }}" /></a>
+            <a href="/prop/{{ _id }}"><img src="{{ source }}" alt="Props for {{ title }}" /></a>
             <a href="/prop/{{ _id }}"><p><span>{{ title }}</span>{{#if year}}, {{ year }}{{/if}}</p></a>
         </div>
     {{/each}}
